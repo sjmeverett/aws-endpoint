@@ -1,0 +1,43 @@
+{
+  "name": "aws-endpoint",
+  "version": "0.1.0",
+  "description": "A utility for making mock servers to handle AWS requests",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "prepublish": "tsc"
+  },
+  "keywords": ["aws", "testing", "amazon"],
+  "author": "Stewart MacKenzie-Leigh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "get-port": "^3.2.0",
+    "handler-builder": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/get-port": "^3.2.0",
+    "@types/jasmine": "^2.8.6",
+    "@types/jest": "^22.1.1",
+    "@types/node": "^9.4.0",
+    "@types/supertest": "^2.0.4",
+    "jest": "^22.1.4",
+    "supertest": "^3.0.0",
+    "ts-jest": "^22.0.3",
+    "typescript": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/aws-endpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stewartml/aws-endpoint/issues"
+  },
+  "homepage": "https://github.com/stewartml/aws-endpoint#readme"
+}
